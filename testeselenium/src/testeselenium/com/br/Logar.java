@@ -20,6 +20,7 @@ public class Logar {
 	public void LogarNoSistema () {
 		
 		driver.get("http://localhost/sistemaphp/");
+		driver.manage().window().maximize();
 		
 		WebElement usuario = driver.findElement(By.id("usu"));
 		WebElement senha = driver.findElement(By.id("pass"));

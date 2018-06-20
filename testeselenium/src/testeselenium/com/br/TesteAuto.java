@@ -6,10 +6,13 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 
-
 public class TesteAuto {
 	
 	private WebDriver driver = null;
+	
+	String nome = "Ana Claudia";
+	String idade = "22";
+	String endereco = "rua chao molhado, 75 - esperança";
 
 	
 	@Before
@@ -29,9 +32,14 @@ public class TesteAuto {
     	Logar.LogarNoSistema();
     	
     	CadastrarUsuarios usuarios = new CadastrarUsuarios(driver);
-    	usuarios.cadastrar();
+    	usuarios.cadastrar(nome, idade, endereco);
+        //usuarios.editar();
+    	usuarios.eliminar();
+    	
+
 		
-		
+    	//DeletarUsuario usuarios2 = new DeletarUsuario(driver);
+    	//usuarios2.deletar();
     }
     
 
