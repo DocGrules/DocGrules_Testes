@@ -44,8 +44,11 @@ public class CadastrarUsuarios {
 		List<WebElement>	lista = driver.findElements(By.linkText("Editar"));
 	    lista.get(3).click();
 	    
-	     driver.findElement(By.name("limpar")).click();
 	     
+	     
+	     driver.findElement(By.id("nome")).clear();
+	     driver.findElement(By.id("idade")).clear();
+	     driver.findElement(By.id("endereco")).clear();
 	     
 	 	WebElement camponome = driver.findElement(By.id("nome"));
 		WebElement campoidade = driver.findElement(By.id("idade"));
@@ -68,10 +71,19 @@ public class CadastrarUsuarios {
          lista.get(0).click();
         
          
-          
-  		 driver.findElement(By.name("eliminar")).submit();
-	
-
+          WebElement botaoEliminar = driver.findElement(By.name("eliminar"));
+  		 
+          botaoEliminar.submit();
+  		 
+  			
 }
+     
+     public void fechar () {
+    	 
+    	 driver.close();
+		 driver.quit();
+    	 
+     }
+     
      
 }
