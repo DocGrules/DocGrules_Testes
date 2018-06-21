@@ -10,9 +10,9 @@ public class TesteAuto {
 	
 	private WebDriver driver = null;
 	
-	String nome = "Ana Claudia";
-	String idade = "22";
-	String endereco = "rua chao molhado, 75 - esperança";
+	String nome = "Genisson de Freitas";
+	String idade = "35";
+	String endereco = "Rua Narciso, 477";
 
 	
 	@Before
@@ -33,13 +33,12 @@ public class TesteAuto {
     	
     	CadastrarUsuarios usuarios = new CadastrarUsuarios(driver);
     	usuarios.cadastrar(nome, idade, endereco);
-        //usuarios.editar();
+        usuarios.editar();
     	usuarios.eliminar();
     	
 
-		
-    	//DeletarUsuario usuarios2 = new DeletarUsuario(driver);
-    	//usuarios2.deletar();
+   
+    
     }
     
 

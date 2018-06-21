@@ -22,9 +22,9 @@ public class CadastrarUsuarios {
 		driver.findElement(By.linkText("Novo Contato")).click();
 		
 		
-		WebElement camponome = driver.findElement(By.id("nome"));
-		WebElement campoidade = driver.findElement(By.id("idade"));
-		WebElement campoend = driver.findElement(By.id("endereco"));
+		WebElement camponome = driver.findElement(By.id("nome1"));
+		WebElement campoidade = driver.findElement(By.id("idade1"));
+		WebElement campoend = driver.findElement(By.id("endereco1"));
 		WebElement botaoSalvar = driver.findElement(By.name("salvar"));
 		
 		
@@ -39,20 +39,28 @@ public class CadastrarUsuarios {
 	
 
      
-     public void editar() {
-    	 
-       List<WebElement>	lista = driver.findElements(By.linkText("Editar"));
-       lista.get(1).click();
-      
-
-		 driver.findElement(By.name("enviar")).submit();
+	public void editar() {
+		
+		List<WebElement>	lista = driver.findElements(By.linkText("Editar"));
+	    lista.get(3).click();
+	    
+	     driver.findElement(By.name("limpar")).click();
+	     
+	     
+	 	WebElement camponome = driver.findElement(By.id("nome"));
+		WebElement campoidade = driver.findElement(By.id("idade"));
+		WebElement campoend = driver.findElement(By.id("endereco"));
+		WebElement botaoEnviar = driver.findElement(By.name("enviar"));
 		
 		
+		camponome.sendKeys("Luiz Antonio");
+		campoidade.sendKeys("22");
+		campoend.sendKeys("Rua Vem pra mim");
+		botaoEnviar.submit();
 		
- 
-   
-    	     }
-		
+	   
+	
+	}
 	
      public void eliminar() {
     	 
