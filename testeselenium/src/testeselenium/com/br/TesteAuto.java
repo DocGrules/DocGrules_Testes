@@ -35,9 +35,7 @@ public class TesteAuto {
     	usuarios.cadastrar(nome, idade, endereco);
         usuarios.editar();
     	usuarios.eliminar();
-    	
-
-   
+    	usuarios.fechar();
     
     }
     
