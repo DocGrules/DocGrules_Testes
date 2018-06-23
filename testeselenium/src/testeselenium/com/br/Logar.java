@@ -19,15 +19,15 @@ public class Logar {
 	
 	public void LogarNoSistema () {
 		
-		driver.get("http://localhost/sistemaphp/");
+		driver.get("http://localhost/sitegrules/index.php");
 		driver.manage().window().maximize();
 		
-		WebElement usuario = driver.findElement(By.id("usu"));
-		WebElement senha = driver.findElement(By.id("pass"));
-		WebElement botaologar = driver.findElement(By.name("botao"));
+		WebElement usuario = driver.findElement(By.name("txtusuario"));
+		WebElement senha = driver.findElement(By.name("txtsenha"));
+		WebElement botaologar = driver.findElement(By.name("login"));
 		
-		usuario.sendKeys("admin");
-		senha.sendKeys("admin");
+		usuario.sendKeys("teste@teste.com");
+		senha.sendKeys("123");
 		botaologar.submit();
 	}
 

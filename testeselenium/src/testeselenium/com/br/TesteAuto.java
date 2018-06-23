@@ -11,8 +11,8 @@ public class TesteAuto {
 	private WebDriver driver = null;
 	
 	String nome = "Genisson de Freitas";
-	String idade = "35";
-	String endereco = "Rua Narciso, 477";
+	String matricula = "150301103";
+	String periodo = "7";
 
 	
 	@Before
@@ -32,10 +32,10 @@ public class TesteAuto {
     	Logar.LogarNoSistema();
     	
     	CadastrarUsuarios usuarios = new CadastrarUsuarios(driver);
-    	usuarios.cadastrar(nome, idade, endereco);
-        usuarios.editar();
-    	usuarios.eliminar();
-    	usuarios.fechar();
+    	//usuarios.cadastrar(nome, matricula, periodo);
+        //usuarios.editar();
+    	usuarios.deletar();
+    	
     
     }
     

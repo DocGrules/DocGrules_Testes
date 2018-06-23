@@ -17,21 +17,25 @@ public class CadastrarUsuarios {
 	
 }
 	
-	public void cadastrar(String nome, String idade, String endereco) {
+	public void cadastrar(String nome, String matricula, String periodo) {
 		
-		driver.findElement(By.linkText("Novo Contato")).click();
+		driver.findElement(By.linkText("Alunos")).click();
+		
+		driver.findElement(By.linkText("Novo Aluno")).click();
 		
 		
-		WebElement camponome = driver.findElement(By.id("nome1"));
-		WebElement campoidade = driver.findElement(By.id("idade1"));
-		WebElement campoend = driver.findElement(By.id("endereco1"));
-		WebElement botaoSalvar = driver.findElement(By.name("salvar"));
+		WebElement camponome = driver.findElement(By.name("txtnome_completo"));
+		WebElement campomatricula = driver.findElement(By.name("txtmatricula"));
+		WebElement campoperiodo = driver.findElement(By.name("txtperiodo"));
+		WebElement botaoEnviar = driver.findElement(By.name("enviar"));
 		
 		
 		camponome.sendKeys(nome);
-		campoidade.sendKeys(idade);
-		campoend.sendKeys(endereco);
-		botaoSalvar.submit();
+		campomatricula.sendKeys(matricula);
+		campoperiodo.sendKeys(periodo);
+		botaoEnviar.submit();
+		
+	
 		
 		
 	}
@@ -41,49 +45,45 @@ public class CadastrarUsuarios {
      
 	public void editar() {
 		
-		List<WebElement>	lista = driver.findElements(By.linkText("Editar"));
-	    lista.get(3).click();
+		driver.findElement(By.linkText("Alunos")).click();
+		
+		List<WebElement>	lista = driver.findElements(By.name("editar"));
+	    lista.get(0).click();
 	    
 	     
 	     
-	     driver.findElement(By.id("nome")).clear();
-	     driver.findElement(By.id("idade")).clear();
-	     driver.findElement(By.id("endereco")).clear();
+	     driver.findElement(By.name("txtnome_completo")).clear();
+	     driver.findElement(By.name("txtmatricula")).clear();
+	     driver.findElement(By.name("txtperiodo")).clear();
 	     
-	 	WebElement camponome = driver.findElement(By.id("nome"));
-		WebElement campoidade = driver.findElement(By.id("idade"));
-		WebElement campoend = driver.findElement(By.id("endereco"));
-		WebElement botaoEnviar = driver.findElement(By.name("enviar"));
-		
+	     WebElement camponome = driver.findElement(By.name("txtnome_completo"));
+		 WebElement campomatricula = driver.findElement(By.name("txtmatricula"));
+		 WebElement campoperiodo = driver.findElement(By.name("txtperiodo"));
+		 WebElement botaoEnviar = driver.findElement(By.name("enviar"));
 		
 		camponome.sendKeys("Luiz Antonio");
-		campoidade.sendKeys("22");
-		campoend.sendKeys("Rua Vem pra mim");
+		campomatricula.sendKeys("155300001");
+		campoperiodo.sendKeys("5");
 		botaoEnviar.submit();
 		
 	   
 	
 	}
 	
-     public void eliminar() {
+     public void deletar() {
     	 
-         List<WebElement>	lista = driver.findElements(By.linkText("Eliminar"));
+    	 driver.findElement(By.linkText("Alunos")).click();
+    	 
+         List<WebElement>	lista = driver.findElements(By.name("deletar"));
          lista.get(0).click();
         
          
-          WebElement botaoEliminar = driver.findElement(By.name("eliminar"));
-  		 
-          botaoEliminar.submit();
+          
   		 
   			
 }
      
-     public void fechar () {
-    	 
-    	 driver.close();
-		 driver.quit();
-    	 
-     }
+ 
      
      
 }
