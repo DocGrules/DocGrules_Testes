@@ -34,13 +34,9 @@ public class CadastrarUsuarios {
 		campomatricula.sendKeys(matricula);
 		campoperiodo.sendKeys(periodo);
 		botaoEnviar.submit();
-		
-	
-		
-		
+				
 	}
 
-	
 
      
 	public void editar() {

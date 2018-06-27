@@ -13,6 +13,11 @@ public class TesteAuto {
 	String nome = "Genisson de Freitas";
 	String matricula = "150301103";
 	String periodo = "7";
+	
+	String tema = "TECNOLOGIA VERDE";
+	String semestre = "2";
+	
+	
 
 	
 	@Before
@@ -31,10 +36,18 @@ public class TesteAuto {
     	
     	Logar.LogarNoSistema();
     	
-    	CadastrarUsuarios usuarios = new CadastrarUsuarios(driver);
+    	//CadastrarUsuarios usuarios = new CadastrarUsuarios(driver);
     	//usuarios.cadastrar(nome, matricula, periodo);
         //usuarios.editar();
-    	usuarios.deletar();
+    	//usuarios.deletar();
+    	
+    	
+    	
+     	//CadastrarEvento evento = new CadastrarEvento(driver);
+    	//evento.cadastrar(tema,semestre);
+        //evento.editar();
+    	//evento.deletar();
+    	
     	
     
     }
