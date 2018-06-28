@@ -39,17 +39,20 @@ Criando Classe TesteAuto para configuração de testes com Selenium e JUnit
 
 #### Criando Classe TesteAuto e configurando para abrir navegador Chrome
 ![Criando Classe TesteAuto e configurando para abrir navegador Chrome](imagens/classe_testeauto_chormedriver_1.jpg)
+
+
+### Criando Classe Logar - Selenium WebDriver
+
+Criando Classe Logar para configuração de testes com Selenium e JUnit
+
 #### Criando Classe Logar e configurando primeiro teste de Login
 ![Criando Classe Logar e configurando primeiro teste de Login](imagens/classe_logar_abrir_navegador_2.jpg)
+
 
 ### Criando Classe CadastrarUsurios - Selenium WebDriver
 
 Criando Classe CadastrarUsuarios para configuração de testes com Selenium e JUnit de cadastramento, alteração e remoção
 
-#### Criando Classe CadastrarUsarios e configurando para rodar testes
-![Criando Classe TesteAuto e configurando para abrir navegador Chrome](imagens/classe_testeauto_chormedriver_1.jpg)
-#### Criando Classe Logar e configurando primeiro teste de Login
-![Criando Classe Logar e configurando primeiro teste de Login](imagens/classe_logar_abrir_navegador_2.jpg)
 
 #### Configurando para rodar testes de Cadastramento de Usuários
 ![Configurando para rodar testes de Cadastramento de Usuários](imagens/classe_cadastrarusu_teste_3.jpg)
