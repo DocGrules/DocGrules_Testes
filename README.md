@@ -17,6 +17,9 @@ Teste com selenium das páginas web, realizar testes das páginas estáticas e d
 #### Criando novo Projeto
 ![Criando novo Projeto](imagens/criar_novo_projeto.jpg)
 #### Criar Arquivo Biblioteca e adicionar bibliotecas do Selenium e Chorme
-![Criar Arquivo Biblioteca e adicionar bibliotecas do Selenium e Chorme](imagens/adicionar_biblioteca.jpg)
-#### Reapontando para o diretório do glassfish
-![Reapontando para o diretório do glassfish](images/conf-javadb-3.PNG)
+![Criar Arquivo Biblioteca e adicionar bibliotecas do Selenium e Chorme](imagens/pasta_biblioteca.jpg)
+#### Adicionar todos novos patchs ao projeto Testeselenium
+![Adicionar todos novos patchs ao projeto Testeselenium](imagens/add_patchs.jpg)
+#### Novos patchs adicionados ao projeto Testeselenium
+![Novos patchs adicionados ao projeto Testeselenium](imagens/adicionados_patchs.jpg)
+
