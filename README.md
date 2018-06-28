@@ -16,7 +16,7 @@ Teste com selenium das páginas web, realizar testes das páginas estáticas e d
 
 #### Criando novo Projeto
 ![Criando novo Projeto](imagens/criar_novo_projeto.jpg)
-#### Retirando o apontamento do diretório JDK
-![Retirando o apontamento do diretório JDK](images/conf-javadb-2.PNG)
+#### Criar Arquivo Biblioteca e adicionar bibliotecas do Selenium e Chorme
+![Criar Arquivo Biblioteca e adicionar bibliotecas do Selenium e Chorme](imagens/adicionar_biblioteca.jpg)
 #### Reapontando para o diretório do glassfish
 ![Reapontando para o diretório do glassfish](images/conf-javadb-3.PNG)
