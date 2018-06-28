@@ -91,4 +91,12 @@ Identificado erro no tetse da Classe CadastrarApn para configuração alteraçã
 #### Erro ao tentar inserir novas informações no Banco de Dados
 ![Erro ao tentar inserir novas informações no Banco de Dados](imagens/erro_aluno.jpg)
 
+## Links
+
+Os seguintes links abaixo serão úteis para você estudar sobre o tema de Automatização de testes com Selenium WebDriver
+
+ - [Selenium WebDriver Config e Downloads](https://www.youtube.com/watch?v=2UhRVicIzGI)
+ - [Introdução aos Testes Funcionais Automatizados com JUnit e Selenium WebDriver](https://www.devmedia.com.br/introducao-aos-testes-funcionais-automatizados-com-junit-e-selenium-webdriver/28037)
+ - [Curso - Automação de Testes com Selenium WebDriver em Java](https://www.udemy.com/automacao-de-testes-com-selenium-webdriver-em-java/)
+
 
