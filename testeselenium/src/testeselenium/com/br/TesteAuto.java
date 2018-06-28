@@ -14,9 +14,13 @@ public class TesteAuto {
 	String matricula = "150301103";
 	String periodo = "7";
 	
-	String tema = "TECNOLOGIA VERDE";
+	String tema = "Nova Tecnologia da Informação";
 	String semestre = "2";
 	
+	String titulo = "Apresentação Teste 01" ;
+	String resumo = "Resumo teste 01 para apresentação em sala";
+	String data = "21041982";
+	String eventos = "TI VERDE" ;
 	
 
 	
@@ -36,7 +40,7 @@ public class TesteAuto {
     	
     	Logar.LogarNoSistema();
     	
-    	//CadastrarUsuarios usuarios = new CadastrarUsuarios(driver);
+        //CadastrarUsuarios usuarios = new CadastrarUsuarios(driver);
     	//usuarios.cadastrar(nome, matricula, periodo);
         //usuarios.editar();
     	//usuarios.deletar();
@@ -47,6 +51,12 @@ public class TesteAuto {
     	//evento.cadastrar(tema,semestre);
         //evento.editar();
     	//evento.deletar();
+     	
+     	CadastrarApn apn = new CadastrarApn(driver);
+    	//apn.cadastrar(titulo, resumo, data, eventos);
+        //apn.editar();
+    	//apn.deletar();
+    	apn.add();
     	
     	
     

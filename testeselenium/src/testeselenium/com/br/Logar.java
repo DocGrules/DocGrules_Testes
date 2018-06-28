@@ -19,7 +19,7 @@ public class Logar {
 	
 	public void LogarNoSistema () {
 		
-		driver.get("http://localhost/sitegrules/index.php");
+		driver.get("http://localhost/sitegrules1/index.php");
 		driver.manage().window().maximize();
 		
 		WebElement usuario = driver.findElement(By.name("txtusuario"));
