@@ -14,8 +14,8 @@ Teste com selenium das páginas web, realizar testes das páginas estáticas e d
 
 ## Configurando Eclipse IDE para testes com Selenium WebDriver:
 
-#### Acessando propriedades
-![Acessando propriedades](images/conf-javadb-1.PNG)
+#### Criando novo Projeto
+![Acessando projeto](images/criar_novo_projeto.jpg)
 #### Retirando o apontamento do diretório JDK
 ![Retirando o apontamento do diretório JDK](images/conf-javadb-2.PNG)
 #### Reapontando para o diretório do glassfish
