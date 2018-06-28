@@ -51,11 +51,34 @@ Criando Classe CadastrarUsuarios para configuração de testes com Selenium e JU
 #### Criando Classe Logar e configurando primeiro teste de Login
 ![Criando Classe Logar e configurando primeiro teste de Login](imagens/classe_logar_abrir_navegador_2.jpg)
 
-#### Configurando para rodar testes de Cadastramento de Usuários
+### Configurando para rodar testes de Cadastramento de Usuários
 ![Configurando para rodar testes de Cadastramento de Usuários](imagens/classe_cadastrarusu_teste_3.jpg)
-### Configurando para rodar testes de Alteração de Usuários
+#### Configurando para rodar testes de Alteração de Usuários
 ![Configurando para rodar testes de Alteração de Usuários](imagens/classe_editarusu_teste_4.jpg)
 
-### Configurando para rodar testes de Exclusão de Usuários
+#### Configurando para rodar testes de Exclusão de Usuários
 ![Configurando para rodar testes de Exclusão de Usuários](imagens/classe_deletarusu_5.jpg)
+
+### Criando Classe CadastrarEventos - Selenium WebDriver
+
+Criando Classe CadastrarEventos para configuração de testes com Selenium e JUnit de cadastramento, alteração e remoção
+
+#### Criando Classe CadastrarEventos e configurando para rodar testes
+![Criando Classe CadastrarEventos e configurando para rodar testes](imagens/classe_cadastrarevento_6.jpg)
+#### Mesmos métodos usados para editar e excluir eventos, já ultilizado para usuários
+![Mesmos métodos usados para editar e excluir eventos, já ultilizado para usuários](imagens/classe_cadastrarevento_7.jpg)
+
+
+### Criando Classe CadastrarApn - Selenium WebDriver
+
+Criando Classe CadastrarApn para configuração de testes com Selenium e JUnit de cadastramento, alteração e remoção
+
+#### Criando Classe CadastrarApn e configurando para rodar testes
+![riando Classe CadastrarApn e configurando para rodar testes](imagens/classe_cadastrarapn_8.jpg)
+#### Mesmos métodos usados para editar e excluir eventos, já ultilizado para usuários
+![Mesmos métodos usados para editar e excluir eventos, já ultilizado para usuários](imagens/classe_cadastrarapn_9.jpg)
+#### Criando método deletar e adicionar aluno ao grupo de Apresentação
+![Mesmos métodos usados para editar e excluir eventos, já ultilizado para usuários](imagens/classe_cadastrarapn_10.jpg)
+
+
 
