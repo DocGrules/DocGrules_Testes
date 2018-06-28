@@ -23,3 +23,23 @@ Teste com selenium das páginas web, realizar testes das páginas estáticas e d
 #### Novos patchs adicionados ao projeto Testeselenium
 ![Novos patchs adicionados ao projeto Testeselenium](imagens/adicionados_patchs.jpg)
 
+
+### Adicionado JUnit ao projeto
+
+Adicionando ao biblioteca do Eclipse o JUnit5
+
+#### Inserindo Biblioteca Testeselenium
+![Add Biblioteca Testeselenium](imagens/adicionar_biblioteca.jpg)
+#### Localizando Junit5
+![Localizando Junit5](imagens/add_junit.jpg)
+
+### Criando Classe TesteAuto - Selenium WebDriver
+
+Criando Classe TesteAuto para configuração de testes com Selenium e JUnit
+
+#### Criando Classe TesteAuto e configurando para abrir navegador Chrome
+![Criando Classe TesteAuto e configurando para abrir navegador Chrome](images/javadb-iniciar-servidor.PNG)
+#### Criando Classe Logar e configurando primeiro teste de Login
+![Criando Classe Logar e configurando primeiro teste de Login](images/javadb-servidor-executando.PNG)
+
+
