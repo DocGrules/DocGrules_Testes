@@ -56,9 +56,10 @@ public class TesteAuto {
     	//apn.cadastrar(titulo, resumo, data, eventos);
         //apn.editar();
     	//apn.deletar();
-    	apn.add();
+    	//apn.add();
     	
-    	
+    	Contato cont = new Contato(driver);
+    	cont.Contatos();
     
     }
     

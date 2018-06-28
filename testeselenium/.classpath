@@ -5,7 +5,6 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="lib" path="biblioteca/client-combined-3.12.0.jar"/>
 	<classpathentry kind="lib" path="biblioteca/selenium-server-standalone-3.12.0.jar"/>
-	<classpathentry kind="lib" path="biblioteca/byte-buddy-1.8.3.jar"/>
 	<classpathentry kind="lib" path="biblioteca/client-combined-3.12.0-sources.jar"/>
 	<classpathentry kind="lib" path="biblioteca/commons-codec-1.10.jar"/>
 	<classpathentry kind="lib" path="biblioteca/commons-exec-1.3.jar"/>
@@ -16,5 +15,6 @@
 	<classpathentry kind="lib" path="biblioteca/httpcore-4.4.6.jar"/>
 	<classpathentry kind="lib" path="biblioteca/okhttp-3.9.1.jar"/>
 	<classpathentry kind="lib" path="biblioteca/okio-1.13.0.jar"/>
+	<classpathentry kind="lib" path="biblioteca/byte-buddy-1.8.3.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

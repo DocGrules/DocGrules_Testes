@@ -11,3 +11,12 @@ Teste com selenium das páginas web, realizar testes das páginas estáticas e d
 
 1. Código que testa web (Aplicação Java que testa site web);
 2. Testar toda interação com usuário cadastros (escrita) e listagens (leitura);
+
+## Configurando Eclipse IDE para testes com Selenium WebDriver:
+
+#### Acessando propriedades
+![Acessando propriedades](images/conf-javadb-1.PNG)
+#### Retirando o apontamento do diretório JDK
+![Retirando o apontamento do diretório JDK](images/conf-javadb-2.PNG)
+#### Reapontando para o diretório do glassfish
+![Reapontando para o diretório do glassfish](images/conf-javadb-3.PNG)
